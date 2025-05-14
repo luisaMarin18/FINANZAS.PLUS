@@ -1,161 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finanzas Plus</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-    <!-- Barra de Navegación -->
-
-    <div class="container">
-        <!-- Contenedor del Logo + Nombre -->
-        <div class="logo-container">
-            <img src="img/log1 (1).svg" alt="Logo Finanzas Plus">
-            <h1>Finanzas Plus</h1>
+    <!-- Hoja de estilo personalizada -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="img/log1 (1).svg" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navbar con Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/log1 (1).svg" alt="Logo Finanzas Plus" class="logo-animado me-2" width="50" />
+          Finanzas Plus
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Testimonios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Equipo</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
+            <li class="nav-item"><a class="nav-link" href="#CONTACTO">Contacto</a></li>
+          </ul>
         </div>
-        
-        <!-- Menú de Navegación -->
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Testimonios</a></li>
-                <li><a href="#">Equipo</a></li>
-                <li><a href="#">Precios</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-    <header>
-    
-    <!-- Banner de imagen de fondo -->
-    <section class="hero">
-        <div class="hero-content">
-            <h2>Potencia tus finanzas con nosotros</h2>
-            <br>
-            <br>
-            <p>¡Bienvenido a Finanzas Plus! Somos tu aliado en el manejo de tus 
-                finanzas personales, ayudándote a tomar decisiones inteligentes
-                y alcanzar tus metas financieras.</p>
-                <br>
-                <br>
-            <a href="#CONTACTO" class="btn">Contáctanos</a>
-        </div>
-    </section>
+      </div>
+    </nav>
 
-    <!-- Nueva franja en blanco -->
-    <section class="white-section">
-        <div class="content-container">
-            <div class="text-container">
-                <h3> Controla tus finanzas ahora </h3>
-                <br>
-                <br>
-                <p>
-                    En Finanzas Plus, busca desarrollar una aplicación móvil que permita 
-                    a los usuarios registrar y categorizar sus transacciones financieras, 
-                    generar reportes visuales y análisis para mejorar la toma 
-                    de decisiones económicas. Esta app ayudará a que, a fin de mes o a un 
-                    largo plazo, el usuario sepa de sus movimientos positivos y negativos.
-                </p>
-                <br>
-                <br>
-                <ul>
-                    <li>Registro de ingresos y gastos con categorización automática.</li>
-                    <li>Generación de reportes visuales para análisis financiero.</li>
-                    <li>Sincronización en la nube para respaldos automáticos.</li>
-                    <li>Compatibilidad con el sistema operativo del dispositivo.</li>
-                    <li>Interfaz de usuario optimizada para facilitar la navegación.</li>
-                </ul>
-                <br>
-                <br>
-                <a href="#" class="btn-orange">Todos los servicios</a>
-              
-            </div>
-            <div class="image-container">
-                <img src="img/grafica2.svg" alt="Nueva imagen de finanzas">
-            </div>
-        </div>
-    </section>
-
-    <section class="light-blue-section">
-        <div class="content-container">
-            <div class="image-container">
-                <img src="img/grafica1.svg" alt="Opiniones de Clientes">
-            </div>
-        <div class="text-container">
-            <h3 class="gray-title">Opiniones de Clientes</h3>
-            <br>
-            <br>
-            <p>
-                                "Gracias a Finanzas Plus, logré organizar mis finanzas y ahorrar de manera efectiva. 
-                 Su equipo de expertos me guió en la toma de decisiones financieras y hoy puedo decir que 
-                 mis ingresos están mejor equilibrados!" - 
-            </p>
-            <br>
-            María S. Águeda Gusto
-            <br>
-                <a href="#" class="btn-orange">Testimonios</a>
-        </div>
-        </div>
-    </section>
-
-    <section class="contact-section">
-        <div class="contact-container">
-
-     <!-- Información de contacto -->
-      
-            <div class="contact-info">
-                <h2 class="contact-title">Contacto</h2>
-                <div class="contact-box">
-                    <p>
-                        ¡Bienvenido a Finanzas Plus! Somos una empresa 
-                        especializada en brindar servicios de asesoramiento 
-                        financiero a individuos y empresas.
-                    </p>
-                    <br>
-                    <br>
-                    <p><strong>Finanzas Plus</strong></p>
-                    <br>
-                    <br>
-                    <p>Calle 56h No. 15 46 Palermo</p>
-                    <br>
-                    <br>
-                    <p>(+57) 3002365954</p>
-                    <br>
-                    <br>
-                    <p>@finanzas_plus</p>
-                    <br>
-                    <br>
-                    <p>finanzasplus@gmail.com</p>
-                </div>
-            </div>
-    
-            <!-- Formulario de contacto -->
-            <div class="contact-form">
-                <form action="#" method="post">
-                    <label for="name">Nombre completo</label>
-                    <input type="text" id="name" name="name" required>
-    
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-    
-                    <label for="message">Mensaje</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-    
-                    <button type="submit" class="btn-orange">Enviar</button>
-                </form>
-            </div>
-        </div>
-    </section>
-    
-        
-    </section>
-    
-        
+    <!-- Banner principal -->
+    <header class="banner d-flex align-items-center justify-content-center text-center text-white">
+      <div class="container hero-content">
+        <h2 class="mb-3">Potencia tus finanzas con nosotros</h2>
+        <p class="mb-4">
+          ¡Bienvenido a Finanzas Plus! Somos tu aliado en el manejo de tus finanzas personales,
+          ayudándote a tomar decisiones inteligentes y alcanzar tus metas financieras.
+        </p>
+        <a href="#CONTACTO" class="btn btn-warning">Contáctanos</a>
+      </div>
     </header>
 
-</body>
+    <!-- Sección blanca -->
+    <section class="py-5">
+      <div class="container row mx-auto align-items-center">
+        <div class="col-md-6 mb-4">
+          <h3>Controla tus finanzas ahora</h3>
+          <p>
+            En Finanzas Plus, busca desarrollar una aplicación móvil que permita a los usuarios registrar y categorizar
+            sus transacciones financieras, generar reportes visuales y análisis para mejorar la toma de decisiones económicas.
+          </p>
+          <ul>
+            <li>Registro de ingresos y gastos con categorización automática.</li>
+            <li>Generación de reportes visuales para análisis financiero.</li>
+            <li>Sincronización en la nube para respaldos automáticos.</li>
+            <li>Compatibilidad con el sistema operativo del dispositivo.</li>
+            <li>Interfaz de usuario optimizada para facilitar la navegación.</li>
+          </ul>
+          <a href="#" class="btn btn-outline-warning mt-3">Todos los servicios</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="img/grafica2.svg" class="img-fluid" alt="Imagen de finanzas" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección opiniones -->
+    <section class="bg-light py-5">
+      <div class="container row mx-auto align-items-center">
+        <div class="col-md-6 text-center mb-4 mb-md-0">
+          <img src="img/grafica1.svg" class="img-fluid" alt="Opiniones" />
+        </div>
+        <div class="col-md-6">
+          <h3 class="text-primary">Opiniones de Clientes</h3>
+          <p class="mt-3">
+            "Gracias a Finanzas Plus, logré organizar mis finanzas y ahorrar de manera efectiva. Su equipo de expertos me
+            guió en la toma de decisiones financieras y hoy puedo decir que mis ingresos están mejor equilibrados!" -
+          </p>
+          <p class="fw-bold">María S. Águeda Gusto</p>
+          <a href="#" class="btn btn-outline-warning">Testimonios</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección contacto -->
+    <section id="CONTACTO" class="py-5 bg-white">
+      <div class="container row mx-auto">
+        <div class="col-md-6 mb-4">
+          <h2 class="text-primary">Contacto</h2>
+          <div class="p-3 border rounded shadow-sm">
+            <p>
+              ¡Bienvenido a Finanzas Plus! Somos una empresa especializada en brindar servicios de asesoramiento financiero
+              a individuos y empresas.
+            </p>
+            <p class="mt-3 mb-1"><strong>Finanzas Plus</strong></p>
+            <p>Calle 56h No. 15 46 Palermo</p>
+            <p>(+57) 3002365954</p>
+            <p>@finanzas_plus</p>
+            <p>finanzasplus@gmail.com</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre completo</label>
+              <input type="text" class="form-control" id="name" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
